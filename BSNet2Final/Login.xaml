@@ -1,0 +1,23 @@
+﻿<Page x:Class="BSNet2Final.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BSNet2Final"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Login">
+
+    <Grid Background="White">
+        <Label x:Name="loginLabel" Content="Login" HorizontalAlignment="Left" Margin="10,10,10,0" VerticalAlignment="Top" Height="49" Width="280" FontSize="26" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Height="34" Margin="25,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="18"/>
+        <PasswordBox x:Name="passwordPasswordBox" HorizontalAlignment="Left" Margin="25,153,0,0" VerticalAlignment="Top" Width="250" Height="34" FontSize="18"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="25,68,0,0" VerticalAlignment="Top" Width="66"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="25,129,0,0" VerticalAlignment="Top" Width="62"/>
+        <Button x:Name="loginButton" Content="Login" HorizontalAlignment="Left" Margin="25,213,0,0" VerticalAlignment="Top" Width="120" Height="28" Click="loginButton_Click" IsDefault="True"/>
+        <Button x:Name="registerButton" Content="Register" HorizontalAlignment="Left" Margin="156,213,0,0" VerticalAlignment="Top" Width="120" Height="28" Click="registerButton_Click"/>
+        <Button x:Name="forgotPWButton" Content="Forgot Password" HorizontalAlignment="Left" Margin="102,246,0,0" VerticalAlignment="Top" Width="99" Height="24" Click="forgotPWButton_Click"/>
+        <Button x:Name="aboutButton" Content="About" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" Width="43" Click="aboutButton_Click"/>
+
+    </Grid>
+</Page>

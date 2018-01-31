@@ -1,0 +1,21 @@
+﻿<Page x:Class="BSNet2Final.DeleteAccount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BSNet2Final"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="DeleteAccount">
+
+    <Grid Background="White">
+        <Label x:Name="adminDeleteLabel" Content="Admin: Delete Account" HorizontalAlignment="Left" Margin="10,10,10,0" VerticalAlignment="Top" Height="49" Width="280" FontSize="26" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="usernameTextBox" HorizontalAlignment="Left" Height="34" Margin="25,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="18"/>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="25,68,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="25,213,0,0" VerticalAlignment="Top" Width="120" Height="28" Click="deleteButton_Click" IsDefault="True"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="156,213,0,0" VerticalAlignment="Top" Width="120" Height="28" IsCancel="True" Click="cancelButton_Click"/>
+       
+        
+
+    </Grid>
+</Page>
